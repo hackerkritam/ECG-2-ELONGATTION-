@@ -1,0 +1,29 @@
+seed: 42
+sequence_lengths: [15, 30, 200]
+latent_dim: 64
+hidden_dim: 64
+batch_size: 8
+lr: 1.0e-4
+betas: [0.0, 0.9]
+alpha: 0.1
+noise_sigma: 0.01
+grad_clip: 1.0
+lambda_temp: 1.0
+lambda_latent: 1.0e-4
+lambda_freq: 0.1
+solver: rk4
+rtol: 1.0e-4
+atol: 1.0e-5
+ode_method: rk4
+odeint_adjoint: false
+normalize_rr: true
+curriculum:
+  - length: 15
+    epochs: 5
+    lr: 1.0e-4
+  - length: 30
+    epochs: 5
+    lr: 1.0e-4
+  - length: 200
+    epochs: 5
+    lr: 1.0e-4

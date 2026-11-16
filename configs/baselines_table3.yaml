@@ -1,0 +1,43 @@
+# Values copied from cited papers; they are not re-computed in this repository.
+# Use this file only when building the final comparison table after code-generated values are available.
+baseline_metrics:
+  BiLSTM_CNN_GAN:
+    RMSE: null
+    MSE: null
+    MAE: null
+    PRD: null
+    DTW: null
+    FD: null
+    MMD: null
+  1CNN_BiLSTM_GAN:
+    RMSE: null
+    MSE: null
+    MAE: null
+    PRD: null
+    DTW: null
+    FD: null
+    MMD: null
+  4CNN_GAN:
+    RMSE: null
+    MSE: null
+    MAE: null
+    PRD: null
+    DTW: null
+    FD: null
+    MMD: null
+  MC_WGAN:
+    RMSE: null
+    MSE: null
+    MAE: null
+    PRD: null
+    DTW: null
+    FD: null
+    MMD: null
+  BC_GAN:
+    RMSE: null
+    MSE: null
+    MAE: null
+    PRD: null
+    DTW: null
+    FD: null
+    MMD: null

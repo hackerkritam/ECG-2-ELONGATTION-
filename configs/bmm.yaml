@@ -1,0 +1,15 @@
+seed: 42
+epochs: 20
+signal_length: 200
+num_classes: 5
+batch_size: 64
+latent_dim: 128
+label_embed_dim: 64
+lr: 1.0e-4
+betas: [0.0, 0.9]
+lambda_gp: 10.0
+lambda_l1: 10.0
+n_critic: 5
+n_synthetic: 25000
+seeds: [0, 1, 2, 3]
+class_balanced_sampling: false
